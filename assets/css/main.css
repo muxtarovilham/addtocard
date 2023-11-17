@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#customers {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardBox {
+  width: 20%;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-top: 15px;
+  align-items: center;
+  text-align: center;
+  height: 400px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.cardBox img {
+  width: 80%;
+  height: 200px;
+}
+
+.cardTextBox {
+  height: 30%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+button {
+  width: 120px;
+  height: 35px;
+  border-radius: 20px;
+  border: none;
+  background-color: orange;
+  transition: 0.5s;
+  color: white;
+}
+button:hover {
+  background-color: orangered;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 60px;
+  border-bottom: 1px solid gray;
+  align-items: center;
+}
+
+.cartButton {
+  display: flex;
+  background-color: #f8f8f8;
+  padding: 15px;
+  border-radius: 50%;
+  text-decoration: none;
+  position: relative;
+}
+
+.cartCount {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.headr {
+  background-color: rgb(47, 47, 47);
+  width: 100%;
+  height: 66px;
+  display: flex;
+  justify-content: space-between;
+}
+.headr i {
+  padding: 24px;
+  background-color: rgb(31, 31, 31);
+}
+.headr i:hover {
+  background-color: black;
+  color: white;
+}
+.headr .libz {
+  display: flex;
+}
+.headr .libz .libs {
+  padding: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headr .libz .libs img {
+  width: 130px;
+  height: 30px;
+}
+.headr .libz .oneu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(23, 23, 23);
+}
+.headr .libz .oneu h1 {
+  color: rgb(111, 111, 111);
+  font-size: 21px;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+}
+header .sec1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .sec1 .imz {
+  width: 50%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .sec1 .in {
+  position: relative;
+  display: flex;
+  gap: 7px;
+}
+header .sec1 .in input {
+  width: 100%;
+  height: 30px;
+  border: none;
+}
+header .sec1 .in i {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+}
+header .sec2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 21px;
+}
+header .sec2 .div1 {
+  gap: 14px;
+  display: flex;
+}
+
+.mn1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 14px;
+}
+.mn1 h1 {
+  font-size: 21px;
+}
+.mn1 p {
+  font-size: 14px;
+  color: gray;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+body main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 66%;
+  height: 650px;
+  background-color: rgb(29, 29, 29);
+  gap: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body main h1 {
+  color: white;
+}
+body main p {
+  color: white;
+}
+body main .d1 .d2 {
+  width: 100%;
+}
+body main .d1 .d2 input {
+  width: 99%;
+}
+body main h6 {
+  width: 100%;
+  color: white;
+  display: flex;
+  text-align: center;
+}
+body main .names {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main input {
+  width: 99%;
+  height: 33px;
+  border-radius: 14px;
+}
+body main .d3 {
+  width: 100%;
+}
+body main .d3 input {
+  height: 100px;
+  border-radius: 33px;
+}
